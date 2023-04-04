@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-li{
+    position: relative;
+}
+.inner-ul{
+    position: absolute;
+    display: none;
+    top: 100%;
+}
+.main-li:hover ul{
+    display: block;
+}
+.Prent-drop-down{
+    position: relative;
+}
+.drop-down-item-ul{
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+.Prent-drop-down:hover ul{
+    display: block;
+}

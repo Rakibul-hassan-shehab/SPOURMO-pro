@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>SPOURMO</title>
+</head>
+<body>
+   <header style="background-image: url('images/bg.jfif'); height: 500px; background-repeat: no-repeat; background-size: cover;">
+
+    <div class="container mx-auto">
+
+        <div class="pt-5">
+            <nav class="relative px-4 py-4 flex justify-between items-center bg-lime-500">
+                <a class="
+                text-3xl font-bold leading-none text-white  " href="#">
+                    <span class="text-4xl">S</span>POURMO
+                </a>
+                <div class="lg:hidden">
+                    <button class="navbar-burger flex items-center text-blue-600 p-3">
+                        <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <title>Mobile menu</title>
+                            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                        </svg>
+                    </button>
+                </div>
+                <ul class="hidden absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-10 lg:flex lg:mx-auto  lg:items-center lg:w-auto lg:space-x-6">
+                    <li class="">
+                        <a class="text-xl text-white hover:text-gray-500 font-bold" href="#">HOME</a>
+                    </li>
+                  
+                    <li class="main-li">
+                        <a class="text-xl text-white font-bold hover:text-gray-500" href="#">
+                           PAGES
+                           <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="inner-ul bg-lime-500 w-[100px]">
+                            <li class="w-full text-white hover:text-gray-500 font-bold text-xl p-4"><a href="#">ITEM1</a></li>
+                            <li class="w-full text-white hover:text-gray-500 font-bold text-xl p-4"><a href="#">ITEM2</a></li>
+                            <li class="w-full text-white hover:text-gray-500 font-bold text-xl p-4"><a href="#">ITEM3</a></li>
+                        </ul>
+                        
+                    </li>
+                   
+                    <li class="Prent-drop-down">
+                        <a class="text-xl text-white hover:text-gray-500 font-bold" href="#">DROPDOWN 
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="drop-down-item-ul w-[250px] bg-lime-500">
+                            <li class="w-full text-white hover:text-gray-500 font-bold text-xl p-4">
+                                <a href="#">DROPDOWN ITEM 1</a>
+                            </li>
+                            <li class="w-full text-white hover:text-gray-500 font-bold text-xl p-4">
+                                <a href="#">DROPDOWN ITEM 2</a>
+                            </li>
+                            <li class="w-full text-white hover:text-gray-500 font-bold text-xl p-4">
+                                <a href="#">DROPDOWN ITEM 3</a>
+                            </li>
+                            <li class="w-full text-white hover:text-gray-500 font-bold text-xl p-4">
+                                <a href="#">DROPDOWN ITEM 4</a>
+                            </li>
+                            <li class="w-full text-white hover:text-gray-500 font-bold text-xl p-4">
+                                <a href="#">DROPDOWN ITEM 5</a>
+                            </li>
+                        </ul>
+                    </li>
+                   
+                    <li>
+                        <a class="text-xl text-white hover:text-gray-500 font-bold" href="#">LINK TEXT</a>
+                    </li>
+                  
+                    <li>
+                        <a class="text-xl text-white hover:text-gray-500 font-bold" href="#">LINK TEXT</a>
+                    </li>
+                </ul>
+               
+            </nav>
+            <div class="navbar-menu relative z-50 hidden">
+                <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+                <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+                    <div class="flex items-center mb-8">
+                        <a class="mr-auto text-3xl font-bold leading-none" href="#">
+                            
+                        </a>
+                        <button class="navbar-close">
+                            <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Home</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">About Us</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Services</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Pricing</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-auto">
+                       
+                        <p class="my-4 text-xs text-center text-gray-400">
+                            <span>Copyright © by RAKIBUL HASSAN 2023</span>
+                        </p>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="mt-[100px]">
+            <h1 class="text-white text-2xl font-bold tracking-wider">
+               <span class="text-3xl">S</span>em Aenean Ligula
+            </h1>
+            <p class="text-white mt-5 font-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quasi  <br> architecto delectus in id! Quis accusamus </p>
+        </div>
+        <div class="mt-5 pl-3 flex gap-5">
+            <a href="#" class="text-white border p-5 rounded-xl bg-lime-500 hover:text-gray-500">VOLUTPAT</a>
+            
+            <a href="#" class="text-white border p-5 rounded-xl hover:bg-lime-500 hover:text-gray-500">CONSEQUAT</a>
+        </div>
+
+        <div class="mt-5 grid justify-center md:grid-cols-2 lg:flex md:justify-evenly md:gap-5  lg:mt-16">
+            <div class="w-[300px]">
+                <img src="images/bredg.jfif" alt="" class=" w-[300px] ">
+                <div class="mt-0   text-center   bg-lime-500 p-3  w-[300px] text-white " >
+                    <a href="#" class=" text-xl">Bibendum Aenean</a>
+                </div>
+            </div>
+
+            <div class="w-[300px] mt-5 md:mt-0">
+                <img src="images/kebord.jfif" alt="" class=" w-[300px]">
+                <div class="mt-0   text-center   bg-lime-500 p-3 w-[300px]  text-white " >
+                    <a href="#" class=" text-xl">Aliquam Eliementum</a>
+                </div>
+            </div>
+
+            <div class="w-[300px] mt-5 md:mt-0">
+                <img src="images/foot.jpg" alt="" class=" w-[300px]">
+                <div class="mt-0   text-center   bg-lime-500 p-3 w-[300px]  text-white " >
+                    <a href="#" class=" text-xl">Aliquam Eliementum</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+   </header>
+   <section class="mt-[780px] md:mt-[450px] lg:mt-[250px]">
+    <div class="" style="background-image: url('images/bg2.jfif'); height: 680px; background-repeat: no-repeat; background-size: cover;">
+        <div class="container mx-auto p-20 ">
+            <div class="md:flex justify-around">
+               
+                   <div class="md:mt-20">
+                    <h1 class="text-white text-2xl">Hed Lorem Mauis Cursus</h1>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sint eaque.  <br> laudantium magnam quod ad atque similique est,</p>
+                    <div class="mt-5 ">
+                        <div>
+                            <div class="  flex gap-2 " >
+                                <div>
+                                 <i class="fa-solid fa-equals text-white p-4 bg-lime-500 rounded-full"></i>
+                                </div>
+                                 <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, hic.</p>
+                             </div>
+                             <div class="  flex gap-2 mt-3 " >
+                                 <div>
+                                  <i class="fa-solid fa-equals bg-white p-4 text-lime-500 rounded-full"></i>
+                                 </div>
+                                 <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, hic.</p>
+                             </div>
+                        </div>
+                   </div> 
+                </div>
+                <div class="mt-10">
+                    <img src="images/sitting-man.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="pt-20">
+    <div class="container mx-auto">
+        <div class="pb-20">
+            <h1 class="text-center">Bibendum vitae quaam orci vutae</h1>
+            <h1 class="text-center text-3xl font-bold">Suscipit Velit Eget Tincidunt</h1>
+        </div>
+        <div class="lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 md:gap-0 mb-5 xl:px-40 ">
+            <div class=" w-80 mx-auto text-center border p-3 hover:bg-gray-100 mt-5 overflow-hidden">
+                <i class="fa-solid fa-trash text-lime-500 text-2xl"></i>
+                <h1 class="mt-2 mb-2 text-xl">Risus Velit Vitae</h1>
+                <p class="text-justify mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas molestias, cupiditate tenetur aspernatur commodi distinctio tempore maxime amet ducimus hic officia accusantium, consequuntur ad, eaque temporibus voluptatibus provident inventore </p>
+                <a href="#" class="text-lime-500">Read More</a>
+            </div>
+
+            <div class=" w-80 mx-auto text-center border p-3 hover:bg-gray-100 mt-5 overflow-hidden">
+                <i class="fa-solid fa-trash text-lime-500 text-2xl"></i>
+                <h1 class="mt-2 mb-2 text-xl">Risus Velit Vitae</h1>
+                <p class="text-justify mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas molestias, cupiditate tenetur aspernatur commodi distinctio tempore maxime amet ducimus hic officia accusantium, consequuntur ad, eaque temporibus voluptatibus provident inventore </p>
+                <a href="#" class="text-lime-500">Read More</a>
+            </div>
+
+            <div class=" w-80 mx-auto text-center border p-3 hover:bg-gray-100 mt-5">
+                <i class="fa-solid fa-trash text-lime-500 text-2xl"></i>
+                <h1 class="mt-2 mb-2 text-xl">Risus Velit Vitae</h1>
+                <p class="text-justify mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas molestias, cupiditate tenetur aspernatur commodi distinctio tempore maxime amet ducimus hic officia accusantium, consequuntur ad, eaque temporibus voluptatibus provident inventore </p>
+                <a href="#" class="text-lime-500">Read More</a>
+            </div>
+
+            <div class=" w-80 mx-auto text-center border p-3 hover:bg-gray-100 mt-5">
+                <i class="fa-solid fa-trash text-lime-500 text-2xl"></i>
+                <h1 class="mt-2 mb-2 text-xl">Risus Velit Vitae</h1>
+                <p class="text-justify mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas molestias, cupiditate tenetur aspernatur commodi distinctio tempore maxime amet ducimus hic officia accusantium, consequuntur ad, eaque temporibus voluptatibus provident inventore </p>
+                <a href="#" class="text-lime-500">Read More</a>
+            </div>
+
+            <div class=" w-80 mx-auto text-center border p-3 hover:bg-gray-100 mt-5">
+                <i class="fa-solid fa-trash text-lime-500 text-2xl"></i>
+                <h1 class="mt-2 mb-2 text-xl">Risus Velit Vitae</h1>
+                <p class="text-justify mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas molestias, cupiditate tenetur aspernatur commodi distinctio tempore maxime amet ducimus hic officia accusantium, consequuntur ad, eaque temporibus voluptatibus provident inventore </p>
+                <a href="#" class="text-lime-500">Read More</a>
+            </div>
+
+            <div class=" w-80 mx-auto text-center border p-3 hover:bg-gray-100 mt-5">
+                <i class="fa-solid fa-trash text-lime-500 text-2xl"></i>
+                <h1 class="mt-2 mb-2 text-xl">Risus Velit Vitae</h1>
+                <p class="text-justify mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas molestias, cupiditate tenetur aspernatur commodi distinctio tempore maxime amet ducimus hic officia accusantium, consequuntur ad, eaque temporibus voluptatibus provident inventore </p>
+                <a href="#" class="text-lime-500">Read More</a>
+            </div>
+
+          
+        </div>
+    </div>
+   </section>
+   <section class="bg-slate-100">
+    <div class="container mx-auto mt-10">
+        <div class="text-center pt-20">
+            <h1 class="">Susapit  Vestibulum dolor present</h1>
+            <h1 class="text-center md:text-2xl">
+                Diam Libero  Interdum At Fringilla
+            </h1>
+        </div>
+        <div class="mt-16 justify-center flex md:gap-5">
+            <a href="#" class="text-lime-500">Phatretra</a>
+            <svg width="8" height="22" viewBox="0 0 8 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="7.47434" y1="0.158114" x2="0.474341" y2="21.1581" stroke="black"/>
+            </svg>
+            <a href="#"  class="text-lime-500">Imperdiet</a>
+            <svg width="8" height="22" viewBox="0 0 8 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="7.47434" y1="0.158114" x2="0.474341" y2="21.1581" stroke="black"/>
+                </svg>
+                
+            <a href="#"  class="text-lime-500">Suspendisse</a>
+            <svg width="8" height="22" viewBox="0 0 8 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="7.47434" y1="0.15800" x2="0.474341" y2="21.1581" stroke="black"/>
+                </svg>
+                
+            <a href="#"  class="text-lime-500">Potenti</a>
+        </div>
+        <div class="mt-20 grid justify-center gap-3 md:grid lg:grid-cols-2 lg:grid xl:grid-cols-3 md:justify-center lg:pl-20 lg:gap-16" >
+            <div class="w-80"><img src="images/download (1).jfif" alt="" class="w-full"></div>
+            <div class="w-80"><img src="images/download (2).jfif" alt="" class="w-full"></div>
+            <div class="w-80"><img src="images/download (3).jfif" alt="" class="w-full"></div>
+            <div class="w-80"><img src="images/download.jfif" alt="" class="w-full"></div>
+            <div class="w-80"><img src="images/Swings.webp" alt="" class="w-full"></div>
+            <div class="w-80"><img src="images/images (3).jfif" alt="" class="w-full"></div>
+        </div>
+    </div>
+   </section>
+   <section style="background-image: url('images/imgs/bg-3.webp');height: 500px; background-repeat: no-repeat; background-size: cover;" class="mt-16">
+    <div class="container mx-auto pt-10 sm:pt-16 sm:p-10 lg:pt-40">
+        <div class="bg-white w-full lg:w-1/2 lg:mx-auto">
+            <div class="p-5 lg:flex lg:gap-5 ">
+                <img src="images/imgs/profile-image.png" alt="" class="w-24 h-24 rounded-full">
+               <div>
+                <h1 class="text-xl font-bold mt-10 ">RAKIBUL HASSAN .S</h1>
+                <h1>Webdeveloper</h1>
+                <p class="mt-5 mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi praesentium aperiam, tempora quae repudiandae voluptate magni tempore a modi necessitatibus, corporis, ab autem unde. Voluptates sequi adipisci aut saepe harum?</p>
+               </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="bg-slate-100">
+        <div class="container mx-auto">
+            <div class="text-center pt-14 pb-14">
+                <h1>Urna egestas consectetuer nulla</h1>
+                <h1 class="text-xl font-bold">Facilisi Integer Ante Risus</h1>
+            </div>
+            <div class="xl:flex pb-5">
+                <div class="w-full px-10 mt-10">
+                    <img src="images/images (3).jfif" alt="" class="w-full">
+                    <h1 class="text-xl mt-2">Tempor Ultrices Quis Fringilla</h1>
+                    <div>
+                        <i class="fa-solid fa-user"></i> 
+                        <a href="#" class="text-lime-500 pl-2">Admin</a>
+                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam unde assumenda iusto consequuntur quidem voluptates earum ratione suscipit sunt.</p>
+                        <a href="#" class="text-lime-500">READ MORE</a>
+                    </div>
+                </div>
+
+                <div class="w-full px-10 mt-10">
+                    <img src="images/images (3).jfif" alt="" class="w-full">
+                    <h1 class="text-xl mt-2">Tempor Ultrices Quis Fringilla</h1>
+                    <div>
+                        <i class="fa-solid fa-user"></i> 
+                        <a href="#" class="text-lime-500 pl-2">Admin</a>
+                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam unde assumenda iusto consequuntur quidem voluptates earum ratione suscipit sunt.</p>
+                        <a href="#" class="text-lime-500">READ MORE</a>
+                    </div>
+                </div>
+
+                <div class="w-full px-10 mt-10">
+                    <img src="images/images (3).jfif" alt="" class="w-full">
+                    <h1 class="text-xl mt-2">Tempor Ultrices Quis Fringilla</h1>
+                    <div>
+                        <i class="fa-solid fa-user"></i> 
+                        <a href="#" class="text-lime-500 pl-2">Admin</a>
+                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam unde assumenda iusto consequuntur quidem voluptates earum ratione suscipit sunt.</p>
+                        <a href="#" class="text-lime-500">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <footer class="h-4/6 mt-16" style="background-image: url('images/imgs/small-water-drops-black-background_23-2147828359.avif'); background-repeat: no-repeat; background-size: cover; width: 100%; ">
+    <div class="container mx-auto lg:flex lg:gap-x-10 pt-16">
+        <div class="pt-10 pl-7 basis-[25%]">
+            <h1 class="text-white text-3xl  mb-5">Lorem Proin Volutpat</h1>
+            <p class="text-white  font-bold text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id libero culpa minima dolorem! Repellendus amet, cumque, vero ullam doloribus adipisci at excepturi tempore est fugit, modi et officia. Beatae expedita corrupti hic ducimus ut amet placeat odio vitae, laboriosam, non aut.</p>
+            <div class="pt-7 flex gap-5 ">
+                <i class="fa-brands fa-square-facebook text-white text-5xl p-2 bg-stone-300"></i>
+                <i class="fa-brands fa-google-plus-g text-white text-5xl p-2 bg-stone-300"></i>
+                <i class="fa-brands fa-linkedin text-white text-5xl p-2 bg-stone-300"></i>
+                <i class="fa-brands fa-twitter text-white text-5xl p-2 bg-stone-300"></i>
+            </div>
+        </div>
+        <div class="basis-[25%] mt-5 p-5">
+            <h1 class="text-white text-3xl mt-5 lg:mb-5 mb-10">Nascetur Ridiculus Mus</h1>
+          <div>
+            <a href="#" class="text-lime-500 text-2xl">Aliquam eget leo praesent</a>
+            <hr class="mt-2">
+          </div>
+          <div class="mt-5">
+            <a href="#" class="text-lime-500 text-2xl">Aliquam eget leo praesent</a>
+            <hr class="mt-2">
+          </div>
+          <div class="mt-5">
+            <a href="#" class="text-lime-500 text-2xl">Aliquam eget leo praesent</a>
+            <hr class="mt-2">
+          </div>
+          <div class="mt-5">
+            <a href="#" class="text-lime-500 text-2xl">Aliquam eget leo praesent</a>
+            <hr class="mt-2">
+          </div>
+        </div>
+        <div class="mt-10 basis-[25%] p-5">
+            <h1 class="text-white text-3xl">Vestibulum Sed Quam</h1>
+            <h1 class="text-slate-200 text-xl mt-5">Ante dapibus luctus sed quis diam vitae ipsum ultrices vehicula.</h1>
+            <form action="#" class="mt-10 ">
+                <input type="text" name="name" id="" placeholder="Name" class="w-full h-16 rounded-xl pl-5 text-2xl mb-5  focus:bg-lime-500">
+                <input type="email" name="name" id="" placeholder="Email" class="w-full h-16 rounded-xl pl-5 text-2xl mb-5 focus:bg-lime-500 focus:border-none">
+                <button class="p-4 bg-lime-500 text-3xl text-white rounded-xl">SUBMIT</button>
+            </form>
+        </div>
+        <div class="basis-[25%] p-5">
+            <div class="grid grid-cols-3 mt-10 gap-5">
+                <img src="images/download (1).jfif" alt="">
+                <img src="images/download (2).jfif" alt="">
+                <img src="images/download (3).jfif" alt="">
+                <img src="images/images (1).jfif" alt="">
+                <img src="images/images (2).jfif" alt="">
+                <img src="images/images (3).jfif" alt="">
+                <img src="images/Swings.webp" alt="">
+                <img src="images/bredg.jfif" alt="">
+                <img src="images/foot.jpg" alt="">
+                
+            </div>
+        </div>
+        
+    </div>
+    <div class="container mx-auto">
+        <hr class="mt-20 mb-20">
+        <div class="flex gap-5 flex-wrap justify-center">
+            <i class="fa-solid fa-house hover:text-lime-500 text-white text-2xl"></i>
+            <a href="#" class="text-white text-2xl hover:text-lime-500">ABOUT</a>
+            <a href="#" class="text-white text-2xl hover:text-lime-500">CONTACT</a>
+            <a href="#" class="text-white text-2xl hover:text-lime-500">TERMS</a>
+            <a href="#" class="text-white text-2xl hover:text-lime-500">PRIVACY</a>
+            <a href="#" class="text-white text-2xl hover:text-lime-500">COOKIES</a>
+            <a href="#" class="text-white text-2xl hover:text-lime-500">DISCLAIMER</a>
+        </div>
+        <hr class="mt-20 mb-10">
+        <div>
+            <p class="text-white p-5 text-3xl font-bold">
+                Copyright &#169; 2023 All Right by RAKIBUL HASSAN
+            </p>
+        </div>
+    </div>
+   </footer>
+   <script>
+    // Burger menus
+    document.addEventListener('DOMContentLoaded', function() {
+        // open
+        const burger = document.querySelectorAll('.navbar-burger');
+        const menu = document.querySelectorAll('.navbar-menu');
+    
+        if (burger.length && menu.length) {
+            for (var i = 0; i < burger.length; i++) {
+                burger[i].addEventListener('click', function() {
+                    for (var j = 0; j < menu.length; j++) {
+                        menu[j].classList.toggle('hidden');
+                    }
+                });
+            }
+        }
+    
+        // close
+        const close = document.querySelectorAll('.navbar-close');
+        const backdrop = document.querySelectorAll('.navbar-backdrop');
+    
+        if (close.length) {
+            for (var i = 0; i < close.length; i++) {
+                close[i].addEventListener('click', function() {
+                    for (var j = 0; j < menu.length; j++) {
+                        menu[j].classList.toggle('hidden');
+                    }
+                });
+            }
+        }
+    
+        if (backdrop.length) {
+            for (var i = 0; i < backdrop.length; i++) {
+                backdrop[i].addEventListener('click', function() {
+                    for (var j = 0; j < menu.length; j++) {
+                        menu[j].classList.toggle('hidden');
+                    }
+                });
+            }
+        }
+    });
+    </script>
+</body>
+</html>
